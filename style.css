@@ -1,0 +1,379 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+.header{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+.header_content{
+    position: relative;
+    margin: 0 auto;
+    width: 65%;
+    padding: 20px 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.people{
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.people_content{
+    position: relative;
+    margin: 0 auto;
+    width: 65%;
+    padding: 20px 0;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 80px;
+}
+.people_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:45px;
+    margin-bottom: 55px;
+}
+.item_lang{
+    transform: rotate(-90deg);
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #828282;
+    padding-top: 130px;
+ 
+    
+}
+.man{
+    width: 100%;
+}
+.item_name{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 86px;
+    font-weight: bold;
+}
+.item_description{
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 35px;
+    /* font-weight: bold; */
+    padding-top: 106px;
+}
+.eng{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000; 
+}
+
+
+
+.main_content {
+    position: relative;
+    margin: 0 auto;
+    width: 65%;
+    padding: 20px 0;
+    background-color: #F6F6F6;
+    margin-top: 80px;
+    margin-bottom: 80px;
+ }
+
+ .main {
+    background: #F6F6F6;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+ }
+ .main_top{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 120px;
+
+ }
+ .main_description{
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 30px;
+    margin-bottom: 120px;
+    
+ }
+ body{
+     background-color: rgb(255, 255, 255);
+ }
+ .main_description_paragraph_one{
+     margin-top: 70px;
+     margin-bottom: 70px;
+ }
+ .main_description_paragraph_two{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.main_description_paragraph_three{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
+.topnav{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 38px;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }
+ .abcd{
+    color:#828282;
+    text-decoration:none
+ }
+ .abcd {
+    color:#828282;
+    text-decoration:none
+    }
+    
+.abcd:active {
+    color:#828282;
+    text-decoration:none
+    }
+    
+.abcd:visited {
+    color: #828282;
+    text-decoration:none
+    }
+ .abc {
+    color:rgb(0, 0, 0);
+    text-decoration:none
+    }
+    
+.abc:active {
+    color:rgb(0, 0, 0);
+    text-decoration:none
+    }
+    
+.abc:visited {
+    color: rgb(0, 0, 0);
+    text-decoration:none
+    }
+.nav_item{
+    
+        text-align:  center;
+        /* font-family: 'Trebuchet MS'; */
+    }
+
+.skills{
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.skills_content{
+    position: relative;
+    margin: 0 auto;
+    width: 65%;
+    padding: 20px 0;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 160px;
+}
+.skills_items{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+ }
+ .skills_top{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 60px;
+ }
+ .skills_description{
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 30px;
+    margin-bottom: 120px;
+    
+ }
+ .items{
+    display: flex;
+    flex-direction: column;
+    text-align:  center;
+    /* font-family: 'Trebuchet MS'; */
+}
+.stars{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.starsf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.black{
+    height: 25px;
+    height: 25px;
+    margin-right: 9px;
+}
+.gray{
+    height: 25px;
+    height: 25px;
+    margin-left: 9px;
+}
+.line{    
+    background: #828282;
+    color: rgb(0, 0, 0);
+    width: 65%;
+    height: 3px;
+    align-items: center;
+    margin-left: 17.5%
+}
+.name{
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 27px;
+    color: #828282;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.namef{
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 27px;
+    color: #828282;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.ae{
+    width: 130px;
+}
+.ai{
+    width: 130px;
+}
+.ps{
+    width: 130px;
+}
+
+.portfolio{
+    background: #F6F6F6;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.portfolio_content{
+    position: relative;
+    margin: 0 auto;
+    width: 65%;
+    padding: 20px 0;
+    background-color: #F6F6F6;
+    padding-bottom: 80px;
+}
+.portfolio_top{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 120px;
+    margin-bottom: 80px;
+
+ }
+ .woman{
+     width: 100%;
+ }
+ .reebok{
+     width: 100%;
+ }
+ .linkReebok{
+     text-decoration: underline;
+     font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 30px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+ }
+ .linkHome{
+    text-decoration: underline; 
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 30px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+ }
+ .brain{
+    width: 100%;
+}
+.linkBraun{
+    text-decoration: underline;
+    font-family: 'Gilroy-Medium', sans-serif;
+   font-size: 30px;
+   margin-bottom: 100px;
+   margin-top: 50px;
+}
+.contacts{
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.contacts_content{
+    position: relative;
+    margin: 0 auto;
+    width: 25%;
+    padding: 20px 0;
+    background-color: #ffffff;
+
+}
+
+.contacts_top{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+
+ }
+ .contacts_description{
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 30px;
+    margin-bottom: 60px;
+    
+ }
+
+ .contacts_description_paragraph{
+     margin-top: 70px;
+     margin-bottom: 70px;
+ }
+ .icons{
+     margin-top: 70px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+   
+ }
+ 
+ .in{
+     margin: 30px;
+ }
+ .fh{
+    margin: 30px;
+}
+.be{
+    margin: 30px;
+}
+.bo{
+    margin: 30px;
+}
+.text{
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 25px;
+    color: #828282;
+    text-align: center;
+    margin-bottom: 170px;
+}
+.sendmes{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    height: 51px;
+    width: 270px;
+    padding-top: 13px;
+    margin-left: 120px;
+}
